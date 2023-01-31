@@ -1,0 +1,125 @@
+a {
+    color: slateblue;
+    display: inline-block;
+    text-decoration-line: underline;
+}
+
+b {
+    font-weight: 400;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-block: 0;
+    margin-inline: auto;
+    text-align: center;
+    width: 65dvw;
+}
+
+cite {
+    font-style: normal;
+}
+
+em {
+    font-weight: 400;
+}
+
+footer {
+    margin-block: 50px;
+}
+
+h1 {
+    margin-block: 60px;
+}
+
+h2 {
+    margin-block-start: 50px;
+    margin-block-end: 30px;
+}
+
+header {
+    overflow-x: hidden;
+}
+
+html {
+    background-color: #fff;
+}
+
+html *[lang] {
+    font-style: italic;
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin-block-end: 20px;
+    margin-inline: auto;
+}
+
+menu {
+    margin-block-start: 0;
+    padding: 0px;
+}
+
+menu > li {
+    background-color: #eee;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px;
+}
+
+menu > li > a {
+    padding: 20px;
+}
+
+ol {
+    font-weight: 400;
+    list-style-position: inside;
+    margin-inline: 35px;
+    padding-inline: 0px;
+    text-align: justify;
+}
+
+ol ol {
+    font-weight: 100;
+    list-style-position: outside;
+    list-style-type: circle;
+    margin-inline-end: 0px;
+}
+
+ol ol li:first-child {
+    margin-block-start: 5px;
+}
+
+ol ol li:last-child {
+    margin-block-end: 30px;
+}
+
+p {
+    margin-inline: 35px;
+    text-align: justify;
+}
+
+section:first-child h2 {
+    margin-block-start: 35px;
+}
+
+strong {
+    background-color: #111;
+    color: white;
+    font-weight: 100;
+}
+
+ul {
+    margin-inline: 35px;
+    padding: 0px;
+}
+
+ul > li {
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px;
+    outline: 1px solid #aaa;
+    padding: 12.5px;
+}
