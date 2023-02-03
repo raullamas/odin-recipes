@@ -1,3 +1,5 @@
+/* BASE */
+
 a {
     color: slateblue;
     display: inline-block;
@@ -25,10 +27,6 @@ em {
     font-weight: 400;
 }
 
-footer {
-    margin-block: 50px;
-}
-
 h1 {
     margin-block: 60px;
 }
@@ -38,15 +36,11 @@ h2 {
     margin-block-end: 30px;
 }
 
-header {
-    overflow-x: hidden;
-}
-
 html {
     background-color: #fff;
 }
 
-html *[lang] {
+html [lang] {
     font-style: italic;
 }
 
@@ -55,45 +49,6 @@ img {
     display: block;
     margin-block-end: 20px;
     margin-inline: auto;
-}
-
-menu {
-    margin-block-start: 0;
-    padding: 0px;
-}
-
-menu > li {
-    background-color: #eee;
-    border-radius: 10px;
-    display: inline-block;
-    margin: 5px;
-}
-
-menu > li > a {
-    padding: 20px;
-}
-
-ol {
-    font-weight: 400;
-    list-style-position: inside;
-    margin-inline: 35px;
-    padding-inline: 0px;
-    text-align: justify;
-}
-
-ol ol {
-    font-weight: 100;
-    list-style-position: outside;
-    list-style-type: circle;
-    margin-inline-end: 0px;
-}
-
-ol ol li:first-child {
-    margin-block-start: 5px;
-}
-
-ol ol li:last-child {
-    margin-block-end: 30px;
 }
 
 p {
@@ -111,12 +66,63 @@ strong {
     font-weight: 100;
 }
 
-ul {
+/* LAYOUT */
+
+#header {
+    overflow-x: hidden;
+}
+
+#footer {
+    margin-block: 50px;
+}
+
+/* MODULE */
+
+.menu {
+    margin-block-start: 0;
+    padding: 0px;
+}
+
+.menu > li {
+    background-color: #eee;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.menu > li > a {
+    padding: 20px;
+}
+
+.o-list {
+    font-weight: 400;
+    list-style-position: inside;
+    margin-inline: 35px;
+    padding-inline: 0px;
+    text-align: justify;
+}
+
+.o-list ol {
+    font-weight: 100;
+    list-style-position: outside;
+    list-style-type: circle;
+    margin-inline-end: 0px;
+}
+
+.o-list ol li:first-child {
+    margin-block-start: 5px;
+}
+
+.o-list ol li:last-child {
+    margin-block-end: 30px;
+}
+
+.u-list {
     margin-inline: 35px;
     padding: 0px;
 }
 
-ul > li {
+.u-list > li {
     border-radius: 10px;
     display: inline-block;
     margin: 5px;
