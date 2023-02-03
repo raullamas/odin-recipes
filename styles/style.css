@@ -1,7 +1,7 @@
 /* BASE */
 
 a {
-    color: slateblue;
+    color: #6a5acd;
     display: inline-block;
     text-decoration-line: underline;
 }
@@ -62,7 +62,7 @@ section:first-child h2 {
 
 strong {
     background-color: #111;
-    color: white;
+    color: #fff;
     font-weight: 100;
 }
 
