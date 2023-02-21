@@ -75,6 +75,17 @@ strong {
 
 /* MODULE */
 
+.hidden {
+    border: 0px;
+    clip-path: inset(1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    width: 1px;
+}
+
 .img-center {
     border-radius: 10px;
     display: block;
