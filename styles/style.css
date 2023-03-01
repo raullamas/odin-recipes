@@ -1,21 +1,8 @@
 @layer base, layout, module;
 
 @layer base {
-
     * {
         margin: 0px;
-    }
-    
-    :root {
-        --black: #111;
-        --blue: #6a5acd;
-        --dark-gray: #333;
-        --darkest-gray: #111;
-        --gray: #aaa;
-        --light-blue: #a298e2;
-        --light-gray: #ddd;
-        --lightest-gray: #eee;
-        --white: #fff;
     }
     
     a {
@@ -75,11 +62,9 @@
         color: var(--white);
         font-weight: 100;
     }
-
 }
 
 @layer layout {
-    
     #header, #main, #footer {
         margin-inline: auto;
         padding-block: 10px;
@@ -93,11 +78,9 @@
     #main > section {
         padding-block-end: 10px;
     }
-
 }
 
 @layer module {
-
     .hidden {
         border: 0px;
         clip-path: inset(1px 1px);
@@ -190,5 +173,4 @@
         padding-block: 10px;
         text-align: center;
     }
-    
 }
